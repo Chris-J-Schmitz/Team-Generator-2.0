@@ -1,0 +1,203 @@
+{
+  "Random-Heros": {
+    "Heros": [
+      "Countess",
+      "Crunch",
+      "Dekker",
+      "Drongo",
+      "FengMao",
+      "Fey",
+      "Gadget",
+      "Gideon",
+      "Grux",
+      "Howitzer",
+      "Kira",
+      "Kallari",
+      "Khaimera",
+      "LtBelica",
+      "Morigesh",
+      "Murdock",
+      "Muriel",
+      "Narbash",
+      "Phase",
+      "Rampage",
+      "Revenant",
+      "Riktor",
+      "Sevarog",
+      "Shinbi",
+      "Sparrow",
+      "Steel"
+    ],
+      "Images": [
+      "src/assets/heros/Countess.webp",
+      "src/assets/heros/Crunch.webp",
+      "src/assets/heros/Dekker.webp",
+      "src/assets/heros/Drongo.webp",
+      "src/assets/heros/FengMao.webp",
+      "src/assets/heros/Fey.webp",
+      "src/assets/heros/Gadget.webp",
+      "src/assets/heros/Gideon.webp",
+      "src/assets/heros/Grux.webp",
+      "src/assets/heros/Howitzer.webp",
+      "src/assets/heros/Kira.webp",
+      "src/assets/heros/Kallari.webp",
+      "src/assets/heros/Khaimera.webp",
+      "src/assets/heros/LtBelica.webp",
+      "src/assets/heros/Morigesh.webp",
+      "src/assets/heros/Murdock.webp",
+      "src/assets/heros/Muriel.webp",
+      "src/assets/heros/Narbash.webp",
+      "src/assets/heros/Phase.webp",
+      "src/assets/heros/Rampage.webp",
+      "src/assets/heros/Revenant.webp",
+      "src/assets/heros/Riktor.webp",
+      "src/assets/heros/Sevarog.webp",
+      "src/assets/heros/Shinbi.webp",
+      "src/assets/heros/Sparrow.webp",
+      "src/assets/heros/Steel.webp"
+    ]
+  } ,
+  "Correct-Heros" : {
+    "Offlane": {
+      "Heros" : [
+        "Countess",
+        "Grux",
+        "FengMao",
+        "Crunch",
+        "Riktor",
+        "Shinbi",
+        "Steel",
+        "Kallari",
+        "Sevarog"
+      ],
+      "Images" : [
+        "src/assets/heros/Countess.webp",
+        "src/assets/heros/Grux.webp",
+        "src/assets/heros/FengMao.webp",
+        "src/assets/heros/Crunch.webp",
+        "src/assets/heros/Riktor.webp",
+        "src/assets/heros/Shinbi.webp",
+        "src/assets/heros/Steel.webp",
+        "src/assets/heros/Kallari.webp",
+        "src/assets/heros/Sevarog.webp"
+    ],
+      "ID" : [
+        0,
+        8,
+        4,
+        1,
+        21,
+        23,
+        25,
+        11,
+        22
+      ]
+    },
+    "Jungle" : {
+      "Heros" :[
+        "Crunch",
+        "FengMao",
+        "Kallari",
+        "Grux",
+        "Khaimera",
+        "Rampage"
+      ],
+      "Images" :[
+        "src/assets/heros/Crunch.webp",
+        "src/assets/heros/FengMao.webp",
+        "src/assets/heros/Kallari.webp",
+        "src/assets/heros/Grux.webp",
+        "src/assets/heros/Khaimera.webp",
+        "src/assets/heros/Rampage.webp"
+      ],
+      "ID" : [
+        1,
+        4,
+        11,
+        8,
+        12,
+        19
+      ]
+    },
+    "Mid" : {
+      "Heros" :[
+        "Countess",
+        "Gadget",
+        "Gideon",
+        "Howitzer",
+        "LtBelica",
+        "Fey",
+        "Morigesh"
+      ],
+      "Images" :[
+        "src/assets/heros/Countess.webp",
+        "src/assets/heros/Gadget.webp",
+        "src/assets/heros/Gideon.webp",
+        "src/assets/heros/Howitzer.webp",
+        "src/assets/heros/LtBelica.webp",
+        "src/assets/heros/Fey.webp",
+        "src/assets/heros/Morigesh.webp"
+      ],
+      "ID" : [
+        0,
+        6,
+        7,
+        9,
+        13,
+        5,
+        14
+      ]
+    },
+    "Carry" : {
+      "Heros" :[
+        "Sparrow",
+        "Murdock",
+        "Drongo",
+        "Revenant",
+        "Kirawebp"
+      ],
+      "Images" :[
+        "src/assets/heros/Sparrow.webp",
+        "src/assets/heros/Murdock.webp",
+        "src/assets/heros/Drongo.webp",
+        "src/assets/heros/Revenant.webp",
+        "src/assets/heros/Kira.webp"
+      ],
+      "ID" : [
+        24,
+        15,
+        3,
+        20,
+        10
+      ]
+    }, 
+    "Support" : {
+      "Heros" :[
+        "Muriel",
+        "Narbash",
+        "Dekker",
+        "Riktor",
+        "LtBelica",
+        "Phase"
+      ],
+      "Images" :[
+        "src/assets/heros/Muriel.webp",
+        "src/assets/heros/Narbash.webp",
+        "src/assets/heros/Dekker.webp",
+        "src/assets/heros/Riktor.webp",
+        "src/assets/heros/LtBelica.webp",
+        "src/assets/heros/Phase.webp"
+      ],
+      "ID" : [
+        16,
+        17,
+        2,
+        21,
+        13,
+        18
+      ]
+    }
+
+    }
+
+}
