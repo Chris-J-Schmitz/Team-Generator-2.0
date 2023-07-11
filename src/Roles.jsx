@@ -7,17 +7,23 @@ import data from "./images.json";
 export default function Roles (props) {
 
     // Set variables for all role image variables. 
-    const [offImage, setOffImage] = useState('        ');
+    const [offImage, setOffImage] = useState('');
     const [jgImage, setJgImage] = useState('');
     const [midImage, setMidImage] = useState('');
     const [carryImage, setCarryImage] = useState('');
     const [suppImage, setSuppImage] = useState('');
 
-    const[offlaneHero, setOfflaneHero] = useState('test');
-    const[jungleHero, setJungleHero] = useState('test');
-    const[midHero, setMidHero] = useState('test');
-    const[carryHero, setCarryHero] = useState('test');
-    const[supportHero, setSupportHero] = useState('test');
+    const [offlane, setOfflane] = useState('');
+    const [jungle, setJungle] = useState('');
+    const [midlane, setMidlane] = useState('');
+    const [carry, setCarry] = useState('');
+    const [support, setSupport] = useState('');
+
+    const[offlaneHero, setOfflaneHero] = useState('');
+    const[jungleHero, setJungleHero] = useState('');
+    const[midHero, setMidHero] = useState('');
+    const[carryHero, setCarryHero] = useState('');
+    const[supportHero, setSupportHero] = useState('');
 
     
     //Setting default variables 
@@ -75,18 +81,23 @@ export default function Roles (props) {
         randomIndex();
 
         /**SET PICTURES TO THE RANDOM SELECTIONS */
+         setOfflane('OFFLANE');
          setOffImage(randomHeroArray[imageIndex[0]]);
          setOfflaneHero(randomNames[imageIndex[0]]);
 
+         setJungle('JUNGLE');
          setJgImage(randomHeroArray[imageIndex[1]]);
          setJungleHero(randomNames[imageIndex[1]]);
 
+         setMidlane('MIDLANE');
          setMidImage(randomHeroArray[imageIndex[2]]);
          setMidHero(randomNames[imageIndex[2]]);
 
+         setCarry('CARRY');
          setCarryImage(randomHeroArray[imageIndex[3]]);
          setCarryHero(randomNames[imageIndex[3]]);
 
+         setSupport('SUPPORT');
          setSuppImage(randomHeroArray[imageIndex[4]]);
          setSupportHero(randomNames[imageIndex[4]]);
 
@@ -172,18 +183,23 @@ export default function Roles (props) {
     function displayCorrect() {
         correctIndex()
 
+        setOfflane('OFFLANE');
         setOffImage(offlaneArray[imageIndex[0]]);
         setOfflaneHero(offlaneNames[imageIndex[0]]);
 
+        setJungle('JUNGLE');
         setJgImage(jungleArray[imageIndex[1]]);
         setJungleHero(jungleNames[imageIndex[1]]);
 
+        setMidlane('MIDLANE');
         setMidImage(midArray[imageIndex[2]]);
         setMidHero(midNames[imageIndex[2]]);
 
+        setCarry('CARRY');
         setCarryImage(carryArray[imageIndex[3]]);
         setCarryHero(carryNames[imageIndex[3]]);
 
+        setSupport('SUPPORT');
         setSuppImage(supportArray[imageIndex[4]]);
         setSupportHero(supportNames[imageIndex[4]]);
     }
@@ -205,7 +221,7 @@ export default function Roles (props) {
                 setMidImage(randomHeroArray[Math.floor(Math.random() * randomHeroArray.length)]);
                 setCarryImage(randomHeroArray[Math.floor(Math.random() * randomHeroArray.length)]);
                 setSuppImage(randomHeroArray[Math.floor(Math.random() * randomHeroArray.length)]);
-                if(iterations >= 20) {
+                if(iterations >= 15) {
                     clearInterval(interval);
                     displayCorrect();
                 }
@@ -221,7 +237,7 @@ export default function Roles (props) {
                 setMidImage(randomHeroArray[Math.floor(Math.random() * randomHeroArray.length)]);
                 setCarryImage(randomHeroArray[Math.floor(Math.random() * randomHeroArray.length)]);
                 setSuppImage(randomHeroArray[Math.floor(Math.random() * randomHeroArray.length)]);
-                if(iterations >= 20) {
+                if(iterations >= 15) {
                     clearInterval(interval);
                     displayRandom();
                 }
@@ -244,32 +260,32 @@ export default function Roles (props) {
                 <div className="flex justify-center bg-#d6d3d1 gap-2 ">
                     
                     <div className="text-white text-center "> 
-                        <span> OFFLANE </span>
+                        <span> {offlane} </span>
                         <img className="py-1" src={offImage} alt=""></img>
                         <span className="">{offlaneHero}</span>
                     </div>
                         
                     <div className="text-white text-center "> 
-                        <span> JUNGLE </span>
+                        <span> {jungle} </span>
                         <img className="py-1" src={jgImage} alt=""></img>
                         <span className="">{jungleHero}</span>
                         
                     </div>
 
                     <div className="text-white text-center"> 
-                        <span> MIDLANE </span>
+                        <span> {midlane} </span>
                         <img className="py-1"  src={midImage} alt=""></img>
                         <span className="">{midHero}</span>
                     </div>
 
                     <div className="text-white text-center W-7 "> 
-                        <span> CARRY </span> 
+                        <span> {carry} </span> 
                         <img className="py-1"  src={carryImage} alt=""></img>
                         <span className="">{carryHero}</span>
                     </div>
 
                     <div className="text-white text-center"> 
-                        <span> SUPPORT </span> 
+                        <span> {support} </span> 
                         <img className="py-1"  src={suppImage} alt=""></img>
                         <span className="">{supportHero}</span>
                     </div>
