@@ -9,6 +9,7 @@
       "Fey",
       "Gadget",
       "Gideon",
+      "Greystone",
       "Grux",
       "Howitzer",
       "Kira",
@@ -37,6 +38,7 @@
       "src/assets/heros/Fey.webp",
       "src/assets/heros/Gadget.webp",
       "src/assets/heros/Gideon.webp",
+      "src/assets/heros/Greystone.webp",
       "src/assets/heros/Grux.webp",
       "src/assets/heros/Howitzer.webp",
       "src/assets/heros/Kira.webp",
@@ -61,6 +63,7 @@
     "Offlane": {
       "Heros" : [
         "Countess",
+        "Greystone",
         "Grux",
         "FengMao",
         "Crunch",
@@ -72,6 +75,7 @@
       ],
       "Images" : [
         "src/assets/heros/Countess.webp",
+        "src/assets/heros/Greystone.webp",
         "src/assets/heros/Grux.webp",
         "src/assets/heros/FengMao.webp",
         "src/assets/heros/Crunch.webp",
@@ -83,6 +87,7 @@
     ],
       "ID" : [
         0,
+        26,
         8,
         4,
         1,
@@ -154,7 +159,7 @@
         "Murdock",
         "Drongo",
         "Revenant",
-        "Kirawebp"
+        "Kira"
       ],
       "Images" :[
         "src/assets/heros/Sparrow.webp",
