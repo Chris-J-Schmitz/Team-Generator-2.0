@@ -257,7 +257,7 @@ export default function Roles (props) {
     return (
         <>
             <div className="my-7 px-3 ">
-                <div className="flex justify-center bg-#d6d3d1 gap-2 ">
+                <div className="flex justify-center bg-#d6d3d1 gap-2  ">
                     
                     <div className="text-white text-center "> 
                         <span> {offlane} </span>

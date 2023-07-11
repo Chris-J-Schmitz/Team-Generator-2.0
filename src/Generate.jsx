@@ -12,7 +12,7 @@ export default function Generate({ onGenerateClick }) {
     return (
         <>
             <div className="flex justify-center  ">
-            <button className="bg-slate-50 hover:bg-slate-200 text-black font-bold p-1 rounded w-generate-button active:bg-slate-400" 
+            <button className="bg-slate-50 hover:bg-violet-200 text-black font-bold p-1 rounded w-generate-button active:bg-slate-400" 
             onClick={handleGenerateClick}
             >Generate</button>
             </div>
