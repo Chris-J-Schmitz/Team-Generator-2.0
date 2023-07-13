@@ -9,7 +9,6 @@
       "Fey",
       "Gadget",
       "Gideon",
-      "Greystone",
       "Grux",
       "Howitzer",
       "Kira",
@@ -27,7 +26,9 @@
       "Sevarog",
       "Shinbi",
       "Sparrow",
-      "Steel"
+      "Steel",
+      "Greystone",
+      "TwinBlast"
     ],
       "Images": [
       "src/assets/heros/Countess.webp",
@@ -38,7 +39,6 @@
       "src/assets/heros/Fey.webp",
       "src/assets/heros/Gadget.webp",
       "src/assets/heros/Gideon.webp",
-      "src/assets/heros/Greystone.webp",
       "src/assets/heros/Grux.webp",
       "src/assets/heros/Howitzer.webp",
       "src/assets/heros/Kira.webp",
@@ -56,7 +56,9 @@
       "src/assets/heros/Sevarog.webp",
       "src/assets/heros/Shinbi.webp",
       "src/assets/heros/Sparrow.webp",
-      "src/assets/heros/Steel.webp"
+      "src/assets/heros/Steel.webp",
+      "src/assets/heros/Greystone.webp",
+      "src/assets/heros/TwinBlast.webp"
     ]
   } ,
   "Correct-Heros" : {
@@ -159,21 +161,24 @@
         "Murdock",
         "Drongo",
         "Revenant",
-        "Kira"
+        "Kira",
+        "TwinBlast"
       ],
       "Images" :[
         "src/assets/heros/Sparrow.webp",
         "src/assets/heros/Murdock.webp",
         "src/assets/heros/Drongo.webp",
         "src/assets/heros/Revenant.webp",
-        "src/assets/heros/Kira.webp"
+        "src/assets/heros/Kira.webp",
+        "src/assets/heros/TwinBlast.webp"
       ],
       "ID" : [
         24,
         15,
         3,
         20,
-        10
+        10,
+        27
       ]
     }, 
     "Support" : {
