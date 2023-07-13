@@ -74,7 +74,7 @@ export default function Roles (props) {
             }
         } while (imageIndex.length < teamSize);
 
-        console.log(imageIndex)
+        
     };
     //Displays random heros
     function displayRandom() {
