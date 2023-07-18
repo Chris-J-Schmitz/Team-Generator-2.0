@@ -13,7 +13,8 @@ export default {
       '5': '32px',
       '6': '48px',
       '7': '64px',
-      'generate-button': '250px'
+      'filter-button' : '150px',
+      'generate-button': '312px'
     },
     extend: {},
   },

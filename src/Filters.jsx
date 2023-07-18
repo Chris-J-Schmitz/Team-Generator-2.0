@@ -12,7 +12,7 @@ export default function Filters() {
     <>
       <div className="flex justify-center my-4 gap-2 px-2">
         <button
-          className={`bg-slate-50 hover:bg-violet-200 text-black font-bold py-1 px-2 rounded  ${
+          className={ ` w-filter-button  h-7 bg-slate-50 hover:bg-violet-200 text-black font-bold  rounded text-lg ${
             selectedFilter === "correct" ? "border-2 border-violet-500 bg-violet-100" : ""
           }`}
           onClick={() => handleFilterClick("correct")}
@@ -21,7 +21,7 @@ export default function Filters() {
         </button>
 
         <button
-          className={`bg-slate-50 hover:bg-violet-200 text-black font-bold py-1 px-2 rounded  ${
+          className={ `w-filter-button h-7 bg-slate-50 hover:bg-violet-200 text-black font-bold  rounded text-lg ${
             selectedFilter === "random" ? "border-2 border-violet-500 bg-violet-100" : ""
           }`}
           onClick={() => handleFilterClick("random")}
