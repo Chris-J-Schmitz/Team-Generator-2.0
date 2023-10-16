@@ -6,7 +6,7 @@ roles they are given in the game. Or a team with characters in random roles for 
 
 # Updates
 There are a few updates to the project.
-The images now rapidly change when the 'Generate' button is clicked to make the selection of the character more visually appealing. 
+The images now rapidly change when the 'Generate' button is clicked to make the selection of the characters more visually appealing. 
 
 # Reason for Rebuild
 The project was re built to learn and become more familiar with React and Tailwind CSS. 
