@@ -14,7 +14,9 @@ export default {
       '6': '48px',
       '7': '64px',
       'filter-button' : '150px',
-      'generate-button': '312px'
+      'generate-button': '312px',
+      'image-width' : '128px',
+      'image-height' : '128px'
     },
     extend: {},
   },

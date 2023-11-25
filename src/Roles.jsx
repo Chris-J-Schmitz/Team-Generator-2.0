@@ -255,32 +255,32 @@ export default function Roles (props) {
                     
                     <div className="text-white text-center "> 
                         <span> {offlane} </span>
-                        <img className="py-1" src={offImage} alt=""></img>
+                        <img className="w-image-width h-image-height rounded-2xl" src={offImage} alt=""></img>
                         <span className="">{offlaneHero}</span>
                     </div>
                         
                     <div className="text-white text-center "> 
                         <span> {jungle} </span>
-                        <img className="py-1" src={jgImage} alt=""></img>
+                        <img className="w-image-width h-image-height rounded-2xl" src={jgImage} alt=""></img>
                         <span className="">{jungleHero}</span>
                         
                     </div>
 
                     <div className="text-white text-center"> 
                         <span> {midlane} </span>
-                        <img className="py-1"  src={midImage} alt=""></img>
+                        <img className="w-image-width h-image-height rounded-2xl"  src={midImage} alt=""></img>
                         <span className="">{midHero}</span>
                     </div>
 
                     <div className="text-white text-center W-7 "> 
                         <span> {carry} </span> 
-                        <img className="py-1"  src={carryImage} alt=""></img>
+                        <img className="w-image-width h-image-height rounded-2xl"  src={carryImage} alt=""></img>
                         <span className="">{carryHero}</span>
                     </div>
 
                     <div className="text-white text-center"> 
                         <span> {support} </span> 
-                        <img className="py-1"  src={suppImage} alt=""></img>
+                        <img className="w-image-width h-image-height rounded-2xl"  src={suppImage} alt=""></img>
                         <span className="">{supportHero}</span>
                     </div>
 
